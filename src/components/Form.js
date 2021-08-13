@@ -33,7 +33,9 @@ class Form {
                         'Content-type': 'application/json'
                     },
                     body: JSON.stringify(formValues)
-                }).then(Modal.hide)
+                })
+                .then(Modal.hide())
+                .then(location.reload())
             })
         } else {
             form.innerHTML = `
@@ -69,7 +71,9 @@ class Form {
                     'Content-type': 'application/json'
                 },
                 body: JSON.stringify(formValues)
-            }).then(Modal.hide())
+            })
+            .then(Modal.hide())
+            .then(location.reload())
         })
         
     }

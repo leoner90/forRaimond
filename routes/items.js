@@ -27,6 +27,7 @@ router.post('/',async (req, res) => {
         gender: req.body.gender
     }
     await Dbconnection.create(newItem);
+    res.sendStatus(204);
 })
 
 //PUT - update a specific user

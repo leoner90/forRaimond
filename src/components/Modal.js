@@ -2,12 +2,13 @@ class Modal {
     static show() {
         const modalBackdrop = document.querySelector('.backdrop')
         modalBackdrop.classList.remove('hidden')
-        modalBackdrop.style.animation = 'fadein 0.7s'
+        modalBackdrop.style.animation = 'fadein 0.4s'
     }
 
     static hide() {
         const modalBackdrop = document.querySelector('.backdrop')
-        modalBackdrop.style.animation = 'fadeout 0.7s'
+        modalBackdrop.style.animation = 'fadeout 0.4s'
+        
 
         const hider = () => {
             const modalForm = document.querySelector('.modal-form')
