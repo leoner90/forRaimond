@@ -1,0 +1,31 @@
+REST AJAX ЭДЖАКС
+
+representational 
+
+Api aplication programing interface
+
+database server backend ->
+midlware API ->
+web APP browser 
+waiter is API 
+
+
+Represitational State
+
+REST is an Aproach
+
+
+2 WAYS TO DO aSYNC js
+xmlgTTPrEQEST
+fETCH apI
+
+
+CONSOILE NETWORK FETCH
+
+
+rest is part of language functionality to handel delete , put, get , post???????????
+
+`` template literal 
+
+queryselector give first item with fins
+queryselectorAll all selectors
