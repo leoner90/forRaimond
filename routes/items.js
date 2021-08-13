@@ -20,7 +20,6 @@ router.get('/:id', async (req, res) => {
 
 //POST - create a new person
 router.post('/',async (req, res) => {
-    //create a new object for the new person (item)
     let newItem = {
         name: req.body.first_name,
         surname: req.body.last_name,
@@ -41,7 +40,6 @@ router.put('/:id',async (req, res) => {
     }
     await Dbconnection.update(updatedItem);
     res.sendStatus(204)
-
 })
 
 //DELETE - delete a specific user
